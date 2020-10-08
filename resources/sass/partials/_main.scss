@@ -1,0 +1,34 @@
+main {
+    background-image: url('../../img/pasta.jpeg');
+
+    .cards {
+        display: flex;
+        justify-content: flex-start;
+        flex-wrap: wrap;
+        padding: 20px;
+
+
+        h2 {
+            width: 100%;
+            margin-top: 8px;
+            margin-bottom: 8px;
+            color: whitesmoke;
+        }
+
+        h3 {
+            color: whitesmoke;
+        }
+
+        img {
+            width: 350px;
+            margin: 10px 20px 10px 0;
+            transition: 0.3s ease-in-out;
+
+            &:hover {
+                transform: scale(1.08);
+                box-shadow: 0 0 10px #000;
+                cursor: pointer;
+            }
+        }
+    }
+}
