@@ -1,0 +1,19 @@
+header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    ul li {
+        display: inline-block;
+        list-style: none;
+        text-align: center;
+        padding: 10px;
+
+        a {
+            color: black;
+            text-decoration: none;
+        }
+    }
+
+}
