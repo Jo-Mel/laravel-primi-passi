@@ -1,7 +1,8 @@
-* {
+@import url(https://fonts.googleapis.com/css2?family=Lato&display=swap);@import url(https://fonts.googleapis.com/css2?family=Sansita+Swashed&display=swap);* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: "Lato", sans-serif;
 }
 
 header {
@@ -15,45 +16,77 @@ header ul li {
   display: inline-block;
   list-style: none;
   text-align: center;
-  padding: 10px;
+  padding: 20px;
 }
 
 header ul li a {
-  color: black;
+  color: #001942;
   text-decoration: none;
 }
 
 main {
-  background-image: url(/images/pasta.jpeg?9a007e28da0993fbbc9d75345c7a2a93);
+  background-image: url(/images/sfondo-prova.jpeg?ab648e30fce5e75c69cda6fc3a2e77d4);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 
-main .cards {
+main .homepg {
+  background-image: url(https://www.lamolisana.it/wp-content/uploads/2019/05/sel-page-classiche-2018.jpg);
+  height: 100vh;
+  background-position-x: center;
+}
+
+main .homepg .desc {
+  width: 60%;
+  margin: 0px auto;
+}
+
+main .homepg .desc p {
+  font-family: "Sansita Swashed", cursive;
+  font-size: 20px;
+  color: #001942;
+  padding: 15px;
+}
+
+.info {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  margin-top: 70px;
+  color: #001942;
+}
+
+.info ul li {
+  margin: 15px;
+  list-style: none;
+}
+
+.cards {
   display: flex;
   justify-content: flex-start;
   flex-wrap: wrap;
   padding: 20px;
+  color: #001942;
 }
 
-main .cards h2 {
+.cards h2 {
   width: 100%;
   margin-top: 8px;
   margin-bottom: 8px;
-  color: whitesmoke;
+  color: #9a2c31;
+  font-family: "Sansita Swashed", cursive;
 }
 
-main .cards h3 {
-  color: whitesmoke;
-}
-
-main .cards img {
+.cards img {
   width: 350px;
   margin: 10px 20px 10px 0;
   transition: 0.3s ease-in-out;
 }
 
-main .cards img:hover {
+.cards img:hover {
   transform: scale(1.08);
-  box-shadow: 0 0 10px #000;
+  box-shadow: 0 0 10px #001942;
   cursor: pointer;
 }
 
